@@ -1,0 +1,4 @@
+Caching is a form of local storage in our aplication. Usually when a user requested a data, the server will get the data from the database, which resulted
+a significant amount of time to get it. Its diffrent with cahing, when a client request a data then the system will check if the data already exist in the local
+cache if it does, then the server would not have to get the data from the database and if it doesn't, the server will get the data from the database,
+and store on the local cache. Caching itself are needed for a popular data.

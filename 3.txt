@@ -1,0 +1,13 @@
+def find_max(nums)   
+    max_num = -(Float::INFINITY)    
+
+    nums.each do |num|     
+        if num > max_num
+        max_num = num; //missing line of code 
+    end 
+    break; //missig line of code
+    end    
+
+return max_num 
+
+end
